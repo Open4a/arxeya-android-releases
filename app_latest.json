@@ -1,18 +1,18 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 11,
-  "versionName": "0.1.10-resume-update-check",
+  "latestVersionCode": 12,
+  "versionName": "0.1.11-auth-validation-feedback",
   "minSupportedVersionCode": 1,
   "mandatory": true,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.10-resume-update-check/arxeya-android-0.1.10-resume-update-check-debug.apk",
-  "apkSha256": "56c7e812a56f673863ca18bed545e114cce38d7ba7a780deabae3594ab61218f",
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.11-auth-validation-feedback/arxeya-android-0.1.11-auth-validation-feedback-debug.apk",
+  "apkSha256": "6b3db774db35f0e6771e18044aebe073b016b9c9c7c069f7c842ba5ee741de46",
   "apkSizeBytes": 69837615,
   "changelog": [
-    "Игра повторно проверяет обновления после возврата из фона через 30+ секунд",
-    "При найденном APK-обновлении UpdateGate снова показывает update dialog",
-    "Обновление помечено обязательным для телефонной проверки",
-    "Сохранены исправления пошагового создания героя",
-    "Обычный update dialog не показывает внутренний versionCode"
+    "Исправлена confusing-подсказка повторного пароля",
+    "Ошибки логина и пароля теперь подсвечиваются красным",
+    "При совпадении повторного пароля показывается нормальное подтверждение",
+    "Серверные ошибки входа показываются понятнее",
+    "Сохранены пошаговое создание героя и resume update check"
   ]
 }
