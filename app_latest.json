@@ -1,21 +1,18 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 9,
-  "versionName": "0.1.8-auth-creation-ux-pass",
+  "latestVersionCode": 10,
+  "versionName": "0.1.9-creation-flow-ui-fix",
   "minSupportedVersionCode": 1,
   "mandatory": false,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.8-auth-creation-ux-pass/arxeya-android-0.1.8-auth-creation-ux-pass-debug.apk",
-  "apkSha256": "edfd02c666ef91399ddfcf9aac9ca5b66e1cfbb6634cf25fae73526000eb936b",
-  "apkSizeBytes": 69804847,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.9-creation-flow-ui-fix/arxeya-android-0.1.9-creation-flow-ui-fix-debug.apk",
+  "apkSha256": "108138457ef3cec9a211c1533a432f1236ccbc1b8ba75157ad96361d9b0839c2",
+  "apkSizeBytes": 69837619,
   "changelog": [
-    "Улучшена форма входа и регистрации",
-    "Добавлен повтор пароля при регистрации",
-    "Добавлены показать/скрыть пароль",
-    "Добавлена inline validation логина и пароля",
-    "Улучшен экран создания персонажа",
-    "Добавлены шаги, описания и summary перед созданием героя",
-    "Добавлены lifecycle/session состояния после возврата в приложение",
-    "Добавлена документация по Telegram auth strategy"
+    "Убран внутренний versionCode из обычного окна обновления",
+    "versionCode оставлен в long-press diagnostics",
+    "Создание героя переделано в пошаговое пробуждение",
+    "Нижняя кнопка действия остаётся видимой",
+    "Backend-backed создание героя сохранено"
   ]
 }
