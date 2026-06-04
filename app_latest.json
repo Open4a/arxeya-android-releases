@@ -1,15 +1,15 @@
 {
-  "latestVersionCode": 2,
-  "versionName": "0.1.1-flow-ui-fix",
+  "latestVersionCode": 3,
+  "versionName": "0.1.2-update-ux-auth-fix",
   "minSupportedVersionCode": 1,
   "mandatory": false,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.1-flow-ui-fix/arxeya-android-0.1.1-flow-ui-fix-debug.apk",
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.2-update-ux-auth-fix/arxeya-android-0.1.2-update-ux-auth-fix-debug.apk",
   "changelog": [
-    "Intro теперь показывается после авторизации",
-    "Исправлен перенос кнопки Пропустить",
-    "Добавлены плавные анимации intro",
-    "Улучшен экран входа",
-    "Улучшен альтернативный вход",
-    "Сохранён PlayGames/AppRoot flow"
+    "Улучшено возвращение из настроек установки APK",
+    "Улучшено открытие системного установщика",
+    "Улучшен экран обновления",
+    "Исправлена обработка Telegram auth URL на телефоне",
+    "Улучшены сообщения при недоступном сервере входа",
+    "Обновлена документация по Play Protect и обновлениям"
   ]
 }
