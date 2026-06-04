@@ -1,22 +1,17 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 6,
-  "versionName": "0.1.5-persistent-updater-auth-lifecycle",
+  "latestVersionCode": 7,
+  "versionName": "0.1.6-real-versioncode-installer-proof",
   "minSupportedVersionCode": 1,
   "mandatory": false,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.5-persistent-updater-auth-lifecycle/arxeya-android-0.1.5-persistent-updater-auth-lifecycle-debug.apk",
-  "apkSha256": "6ffb8bd9914a5a6b21b60aaaca8f695f5858bd756fe5bf493696a0af0c2326f5",
-  "apkSizeBytes": 72700685,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.6-real-versioncode-installer-proof/arxeya-android-0.1.6-real-versioncode-installer-proof-debug.apk",
+  "apkSha256": "d04f285f0f3fedf9cf4296c8b40981da4d1697232dc800ce59cd14eb6a79a66d",
+  "apkSizeBytes": 69739311,
   "changelog": [
-    "Обновление больше не скачивается повторно, если APK уже загружен",
-    "Добавлена проверка SHA256 и размера APK",
-    "Добавлено восстановление состояния загрузки после перезапуска",
-    "Добавлены состояния установки и повторной установки",
-    "Добавлен ручной fallback скачивания APK",
-    "Добавлена debug-диагностика версии/API/update/auth",
-    "Улучшена проверка manifest без ожидания GitHub raw cache",
-    "Уточнён phone-safe Telegram auth flow",
-    "Добавлены lifecycle/session refresh требования"
+    "Исправлена ошибка публикации APK со старым versionCode",
+    "Добавлена обязательная проверка версии внутри APK перед публикацией",
+    "Скачанный APK проверяется по package/version/sha/size перед установкой",
+    "Исправлен тестовый переход с 0.1.4 на новую версию"
   ]
 }
