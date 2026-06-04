@@ -1,9 +1,7 @@
-# ARXEYA Android 0.1.5 Persistent Updater / Auth / Lifecycle
+# ARXEYA Android 0.1.6 Real VersionCode Installer Proof
 
-Install APK from the release asset on an Android phone. This is a debug test build for owner verification.
+This debug APK fixes the 0.1.5 publication mistake where the asset filename and manifest said 0.1.5 but the APK manifest still contained versionCode 5.
 
-Expected API host: https://arxeya.ru/api
+Verified APK manifest: ru.arxeya.rpg / versionCode 7 / versionName 0.1.6-real-versioncode-installer-proof.
 
-Long press the debug badge on the auth screen to copy diagnostics.
-
-Android still requires system confirmation for sideloaded APK installation. If in-app install does not complete, relaunch ARXEYA and use install retry or manual APK download fallback.
+Before publishing any future APK, verify the APK manifest with scripts/android_verify_release_apk.ps1.
