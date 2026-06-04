@@ -1,0 +1,15 @@
+{
+  "contentVersion": 1,
+  "minAppVersionCode": 1,
+  "channel": "dev",
+  "files": [
+    {
+      "id": "intro_text",
+      "type": "json",
+      "version": 1,
+      "url": "",
+      "sha256": "",
+      "relativePath": "intro/intro_text.json"
+    }
+  ]
+}
