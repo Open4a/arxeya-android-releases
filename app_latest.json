@@ -1,17 +1,18 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 7,
-  "versionName": "0.1.6-real-versioncode-installer-proof",
+  "latestVersionCode": 8,
+  "versionName": "0.1.7-ui-account-cleanup",
   "minSupportedVersionCode": 1,
   "mandatory": false,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.6-real-versioncode-installer-proof/arxeya-android-0.1.6-real-versioncode-installer-proof-debug.apk",
-  "apkSha256": "d04f285f0f3fedf9cf4296c8b40981da4d1697232dc800ce59cd14eb6a79a66d",
-  "apkSizeBytes": 69739311,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.7-ui-account-cleanup/arxeya-android-0.1.7-ui-account-cleanup-debug.apk",
+  "apkSha256": "80da2fcbc69263e2b32e34a20e5b21f2025ec89dabe1810cb14fbc4176cbc61c",
+  "apkSizeBytes": 69755691,
   "changelog": [
-    "Исправлена ошибка публикации APK со старым versionCode",
-    "Добавлена обязательная проверка версии внутри APK перед публикацией",
-    "Скачанный APK проверяется по package/version/sha/size перед установкой",
-    "Исправлен тестовый переход с 0.1.4 на новую версию"
+    "Убран внутренний versionCode из видимого debug badge",
+    "versionCode оставлен только в debug diagnostics",
+    "Добавлен блок текущего аккаунта",
+    "Добавлена кнопка выхода из аккаунта",
+    "Logout очищает локальную сессию без очистки updater state"
   ]
 }
