@@ -1,18 +1,21 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 8,
-  "versionName": "0.1.7-ui-account-cleanup",
+  "latestVersionCode": 9,
+  "versionName": "0.1.8-auth-creation-ux-pass",
   "minSupportedVersionCode": 1,
   "mandatory": false,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.7-ui-account-cleanup/arxeya-android-0.1.7-ui-account-cleanup-debug.apk",
-  "apkSha256": "80da2fcbc69263e2b32e34a20e5b21f2025ec89dabe1810cb14fbc4176cbc61c",
-  "apkSizeBytes": 69755691,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.8-auth-creation-ux-pass/arxeya-android-0.1.8-auth-creation-ux-pass-debug.apk",
+  "apkSha256": "edfd02c666ef91399ddfcf9aac9ca5b66e1cfbb6634cf25fae73526000eb936b",
+  "apkSizeBytes": 69804847,
   "changelog": [
-    "Убран внутренний versionCode из видимого debug badge",
-    "versionCode оставлен только в debug diagnostics",
-    "Добавлен блок текущего аккаунта",
-    "Добавлена кнопка выхода из аккаунта",
-    "Logout очищает локальную сессию без очистки updater state"
+    "Улучшена форма входа и регистрации",
+    "Добавлен повтор пароля при регистрации",
+    "Добавлены показать/скрыть пароль",
+    "Добавлена inline validation логина и пароля",
+    "Улучшен экран создания персонажа",
+    "Добавлены шаги, описания и summary перед созданием героя",
+    "Добавлены lifecycle/session состояния после возврата в приложение",
+    "Добавлена документация по Telegram auth strategy"
   ]
 }
