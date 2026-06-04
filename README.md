@@ -14,13 +14,12 @@ This public repository may contain only safe distribution files:
 
 Do not publish source code, `local.properties`, keystores, secrets, private configs, or local build folders here.
 
-## First updater MVP
+## Current test release
 
-Phones with an older ARXEYA build that does not contain updater code cannot update themselves.
-Install the first updater-capable APK manually once from the GitHub Release:
+Current debug updater release:
 
-https://github.com/Open4a/arxeya-android-releases/releases/tag/android-v0.1.0-updater-mvp
+https://github.com/Open4a/arxeya-android-releases/releases/tag/android-v0.1.1-flow-ui-fix
 
-After this updater-capable APK is installed, ARXEYA can check public manifests at startup and guide future APK updates through Android's system installer.
+Installed ARXEYA updater-capable builds read `app_latest.json` from this public repository and can guide future APK updates through Android's system installer.
 
 Android still requires the user to confirm APK installation.

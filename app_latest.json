@@ -1,12 +1,15 @@
 {
-  "latestVersionCode": 1,
-  "versionName": "0.1.0-updater-mvp-debug",
+  "latestVersionCode": 2,
+  "versionName": "0.1.1-flow-ui-fix",
   "minSupportedVersionCode": 1,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.0-updater-mvp/arxeya-android-updater-mvp-debug.apk",
   "mandatory": false,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.1-flow-ui-fix/arxeya-android-0.1.1-flow-ui-fix-debug.apk",
   "changelog": [
-    "First updater-capable ARXEYA Android debug APK.",
-    "Startup checks for remote content and APK updates.",
-    "APK updates download inside the app and open Android system installer."
+    "Intro теперь показывается после авторизации",
+    "Исправлен перенос кнопки Пропустить",
+    "Добавлены плавные анимации intro",
+    "Улучшен экран входа",
+    "Улучшен альтернативный вход",
+    "Сохранён PlayGames/AppRoot flow"
   ]
 }
