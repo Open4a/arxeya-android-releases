@@ -1,5 +1,3 @@
-# ARXEYA Android 0.1.7 UI Account Cleanup
+# ARXEYA Android 0.1.8 Auth / Creation UX Pass
 
-Debug test build for phone verification.
-
-Changes: debug badge no longer shows internal versionCode on the visible screen; versionCode remains in diagnostics; account block and local logout are available on the auth screen.
+Debug test build for phone verification of auth/register validation, character creation UX, lifecycle/session UI preparation, and Telegram auth strategy docs.
