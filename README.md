@@ -18,7 +18,7 @@ Do not publish source code, `local.properties`, keystores, secrets, private conf
 
 Current debug updater release:
 
-https://github.com/Open4a/arxeya-android-releases/releases/tag/android-v0.1.2-update-ux-auth-fix
+https://github.com/Open4a/arxeya-android-releases/releases/tag/android-v0.1.3-updater-state-telegram-auth
 
 Installed ARXEYA updater-capable builds read `app_latest.json` from this public repository and can guide future APK updates through Android's system installer.
 
