@@ -1,0 +1,3 @@
+6ffb8bd9914a5a6b21b60aaaca8f695f5858bd756fe5bf493696a0af0c2326f5  arxeya-android-0.1.5-persistent-updater-auth-lifecycle-debug.apk
+2cebb07a4624b1f620112f7698920b2c5f1d41f45282ee9d0c0bfa9462cd2488  app_latest.json
+8628f0e7c5422b1a6a84c1cd32ac04e9921d70fe940a4f294c0ca66258c4bc04  content_manifest.json
