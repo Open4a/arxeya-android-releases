@@ -1,18 +1,18 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 10,
-  "versionName": "0.1.9-creation-flow-ui-fix",
+  "latestVersionCode": 11,
+  "versionName": "0.1.10-resume-update-check",
   "minSupportedVersionCode": 1,
-  "mandatory": false,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.9-creation-flow-ui-fix/arxeya-android-0.1.9-creation-flow-ui-fix-debug.apk",
-  "apkSha256": "108138457ef3cec9a211c1533a432f1236ccbc1b8ba75157ad96361d9b0839c2",
-  "apkSizeBytes": 69837619,
+  "mandatory": true,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.10-resume-update-check/arxeya-android-0.1.10-resume-update-check-debug.apk",
+  "apkSha256": "56c7e812a56f673863ca18bed545e114cce38d7ba7a780deabae3594ab61218f",
+  "apkSizeBytes": 69837615,
   "changelog": [
-    "Убран внутренний versionCode из обычного окна обновления",
-    "versionCode оставлен в long-press diagnostics",
-    "Создание героя переделано в пошаговое пробуждение",
-    "Нижняя кнопка действия остаётся видимой",
-    "Backend-backed создание героя сохранено"
+    "Игра повторно проверяет обновления после возврата из фона через 30+ секунд",
+    "При найденном APK-обновлении UpdateGate снова показывает update dialog",
+    "Обновление помечено обязательным для телефонной проверки",
+    "Сохранены исправления пошагового создания героя",
+    "Обычный update dialog не показывает внутренний versionCode"
   ]
 }
