@@ -1,18 +1,18 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 12,
-  "versionName": "0.1.11-auth-validation-feedback",
+  "latestVersionCode": 13,
+  "versionName": "0.1.12-validation-name-checks",
   "minSupportedVersionCode": 1,
   "mandatory": true,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.11-auth-validation-feedback/arxeya-android-0.1.11-auth-validation-feedback-debug.apk",
-  "apkSha256": "6b3db774db35f0e6771e18044aebe073b016b9c9c7c069f7c842ba5ee741de46",
-  "apkSizeBytes": 69837615,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.12-validation-name-checks/arxeya-android-0.1.12-validation-name-checks-debug.apk",
+  "apkSha256": "bca8dbcbe77acbc5dfca5fcec42420f3a845df57bc0ced33d8c5affb87eba166",
+  "apkSizeBytes": 69853999,
   "changelog": [
-    "Исправлена confusing-подсказка повторного пароля",
-    "Ошибки логина и пароля теперь подсвечиваются красным",
-    "При совпадении повторного пароля показывается нормальное подтверждение",
-    "Серверные ошибки входа показываются понятнее",
-    "Сохранены пошаговое создание героя и resume update check"
+    "Пустые untouched-поля входа больше не подсвечиваются красным",
+    "Красная ошибка появляется только после ввода проблемного значения",
+    "Имя героя проверяется на занятость перед переходом к облику",
+    "Занятое имя героя не пропускает дальше",
+    "Сохранены предыдущие исправления создания героя и updater resume-check"
   ]
 }
