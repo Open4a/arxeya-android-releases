@@ -1,18 +1,21 @@
 {
   "platform": "android",
   "channel": "debug",
-  "latestVersionCode": 13,
-  "versionName": "0.1.12-validation-name-checks",
+  "latestVersionCode": 14,
+  "versionName": "0.1.13-creation-ux-assets-final",
   "minSupportedVersionCode": 1,
-  "mandatory": true,
-  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.12-validation-name-checks/arxeya-android-0.1.12-validation-name-checks-debug.apk",
-  "apkSha256": "bca8dbcbe77acbc5dfca5fcec42420f3a845df57bc0ced33d8c5affb87eba166",
-  "apkSizeBytes": 69853999,
+  "mandatory": false,
+  "apkUrl": "https://github.com/Open4a/arxeya-android-releases/releases/download/android-v0.1.13-creation-ux-assets-final/arxeya-android-0.1.13-creation-ux-assets-final-debug.apk",
+  "apkSha256": "0044dad775706b88a2b57792e84da6cffe816411119b85ed930a2cb90d022620",
+  "apkSizeBytes": 87025857,
   "changelog": [
-    "Пустые untouched-поля входа больше не подсвечиваются красным",
-    "Красная ошибка появляется только после ввода проблемного значения",
-    "Имя героя проверяется на занятость перед переходом к облику",
-    "Занятое имя героя не пропускает дальше",
-    "Сохранены предыдущие исправления создания героя и updater resume-check"
+    "Убран versionCode из обычного окна обновления",
+    "Добавлена повторная проверка обновлений после возврата из фона",
+    "Улучшена валидация регистрации и ошибок логина",
+    "Ошибка занятого логина показывается под полем логина",
+    "Добавлена проверка доступности имени героя",
+    "Создание героя переделано в визуальный flow: Облик → Путь → Имя → Итог",
+    "Добавлены визуальные ассеты пробуждения героя",
+    "Добавлена документация ассетов и маппинг создания персонажа"
   ]
 }
